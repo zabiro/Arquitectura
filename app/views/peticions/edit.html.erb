@@ -1,0 +1,12 @@
+<nav class="navbar navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Edicion de PQR</a>
+    <form class="form-inline my-2 my-lg-0">
+    <a class="nav-link disabled" href="#">Login</a>
+    </form>
+  </div>
+</nav>
+
+<%= render 'form', peticion: @peticion %>
+
+<%= link_to 'Show', @peticion %> |
+<%= link_to 'Back', peticions_path %>
