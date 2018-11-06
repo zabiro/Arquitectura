@@ -17,6 +17,13 @@ gem 'puma', '~> 3.7'
 gem 'sass-rails', '~> 5.0'
 
 gem 'devise'
+
+gem 'remotipart'
+gem "activeadmin", '~> 1.0.0.pre1'
+
+
+gem 'cancancan', '~> 2.3'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes

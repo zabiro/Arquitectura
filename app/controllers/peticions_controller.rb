@@ -1,5 +1,6 @@
 class PeticionsController < ApplicationController
   before_action :set_peticion, only: [:show, :edit, :update, :destroy]
+  
 
   # GET /peticions
   # GET /peticions.json
